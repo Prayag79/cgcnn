@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environments
+.vscode/
+*.env
+.env
+.env.local
+venv/
+cgcnn310/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data and generated files
+data/
+results/
+logs/
+pre-trained/
+
+# Model weights and training artifacts
+*.pth
+*.pth.tar
+*.pt
+*.tar
+
+# API keys or secrets
+apikey.txt
+config.json
+*.secret
+
