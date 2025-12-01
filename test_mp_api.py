@@ -1,6 +1,8 @@
 from mp_api.client import MPRester
 
-MP_API_KEY =  '9TJvw6psDp9Kz2P0MCS2pe9s88laGpa9'
+key_path = os.path.join(BASE_DIR, "apikey.txt")
+with open(key_path, "r") as f:
+    API_KEY = f.read().strip()
 
 def main():
     # connect to Materials Project 
